@@ -1,0 +1,90 @@
+#containerThree{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.boxThree{
+    width: 750px;
+}
+.boxThree > h1{
+    font-size: 48px;
+    font-family: "Fira Sans", serif, arial;
+    margin: 2px 40px 5px 36px;
+}
+
+.boxThree > h2{
+    margin: 18px 40px 8px 155px;
+    font-family: "Fira Sans", serif, arial;
+    letter-spacing: 3px;
+}
+.boxThree > img{
+    height: 196px;
+    width: 398px;
+    margin: 6px 40px -6px 170px;
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+}
+
+.buttonLink{    
+    height: 24px;
+    width: 399.4px;
+    margin: 0px 40px 10px 170px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+    border: 2px solid black;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(to right, #2e1065, #a78bfa);
+    color: #dbeafe;
+}
+
+.buttonLink:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background: linear-gradient(to right, #64748b, #fafafa);
+    color: black;
+    text-shadow: 1px 1px whitesmoke;
+}
+/*BOX 2*/
+
+.boxThree > h4{
+    margin-top: 80px;
+    font-size: 32px;
+    font-family: "Fira Sans", serif, arial;
+    text-decoration: underline 1.7px;
+    letter-spacing: 1.5px;
+   
+}
+.boxThree > p{
+    margin: 15px 90px 0px 10px;
+    font-size: 18px;
+    font-family: "Public Sans", arial;
+}
+
+/*BOX 3*/
+.boxThree > .titles{
+    margin-top: 80px;
+}
+
+/*DARKTHEME*/
+#containerThree.darkColor{
+    color: white;
+}
+
+.boxThree.darkImgProjeto > img{
+    border: 1px solid #97deff;
+}
+
+.buttonLink.darkButton{
+    border: 2px solid #97deff;
+    background: linear-gradient(to right, #111827, #6b7280);
+    color: white;
+}
+.buttonLink.buttonLink:hover{
+    background: linear-gradient(to right, #f9fafb, #6366f1);
+    color: black;
+    transition: 0.5s;
+}

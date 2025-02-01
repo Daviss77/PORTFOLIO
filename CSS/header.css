@@ -1,0 +1,68 @@
+
+.cab{
+    background-color: #46455f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    transition: background-color 0.5s ease;
+}
+
+.cab > a > img{
+    height: 48px;
+    width: 50px;
+    margin: 4px 18px;
+}
+
+.email{
+    font-family: "Fira Sans", serif, arial;
+    color: rgb(101, 219, 255);
+    text-decoration: underline rgb(0, 0, 0);
+}
+.cab > a{
+    text-decoration: none;
+}
+.cab  .t1{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Fira Sans", serif, arial;
+    letter-spacing: 2px;
+    margin: 2px 20px;
+    margin-top: 20px;
+}
+
+.t1:hover{
+    text-decoration: underline whitesmoke;
+    cursor: pointer;
+}
+
+#top{
+    margin-left: 40px;
+    background-color: beige;
+    border-radius: 50%;
+    height: 90px;
+    width: 95px;
+}
+#top  img{
+   margin-left: 3px;
+}
+#top > p{
+    font-size: 8px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+/*DARKTHEME*/
+.cab.darkCab{
+    background-color: #0f94d6;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.t1.darkT1{
+    color: #0f172a;     
+    font-weight: bold;
+}
+
+.email.darkEmail{
+    color: black;
+}

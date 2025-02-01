@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&family=Concert+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Passion+One:wght@400;700;900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #f0fdfa, #dbeafe , #bac6e2,   #93c5fd, #172554);
+    /*darkMode*/
+    /*background: linear-gradient(to bottom, #0a0a0a, #0a0a0a, #1e1b4b , #4c0519);*/
+}
+
+/*CLASSE DARKTHEME*/
+.corpo{
+    background: linear-gradient(to bottom, #0a0a0a, #0a0a0a,#1e1b4b, #1e1b4b);
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #0f172a;
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 35px;
+}
+
+#container{
+    display: flex;
+    margin: auto;
+    width: 730px;   
+    height: 520px;
+}
+
+.boxOne{
+    align-items: center;
+}
+.boxOne > p {
+    margin: 5px 85%;
+    font-size: 25px;
+}
+
+.boxOne > h1{
+    font-size: 120px;
+    margin: 64px 130px;
+    font-family: "Concert One", serif;
+    letter-spacing: 6.5px;
+    text-shadow: 5px 5px 5px whitesmoke;
+    transition: color 0.5s ease, text-shadow 0.5s ease, border-bottom 0.4s ease-out;
+}
+.boxOne > h3{
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 25%;
+    font-family: "Fira Sans";
+    text-shadow: 0.5px 0.5px 1px whitesmoke;
+}
+
+/*DARKTTHEME*/
+.boxOne.darkH1 > h1{
+    color: white;
+    text-shadow: 2px 2px 1px #3b82f6;
+}
+.boxOne.darkH3 > h3{
+    width: 400px;
+    color: #e0f2fed1;
+    text-shadow: 1px 1px brown;
+}
+
+.boxOne.darkP  p{
+    color: white;
+}

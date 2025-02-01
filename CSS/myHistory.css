@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#containerTwo{
+    display: flex;
+    justify-content: center;
+}
+.boxTwo{
+    margin: 100px 60px;
+}
+.boxTwo > img{
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #9e7decc0;
+    box-shadow: 5px 4px 6px #50072475;
+}
+.boxTwo > h1{
+    font-family: "Fira Sans", serif;
+    margin-bottom: 16px;
+}
+.boxTwo > p{
+    width: 900px;
+    line-height: 28px;
+    font-family: "Public Sans", arial;
+    font-size: 18px;
+ 
+}
+
+.boxTwo > p:hover{
+    cursor: zoom-in;
+    font-size: 22px;
+    scale: 1;
+    transition: 0.6s;
+}
+
+/*DARKTHEME*/
+#containerTwo.darkColor{
+    color: white;
+}
+.boxTwo.darkImg > img{
+    border: 2px solid #97deff;
+    box-shadow: 5px 4px 6px #34d39962;
+    
+}
