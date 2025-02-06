@@ -31,3 +31,14 @@
 #container .brIMG{
     margin-left: 25px;
 }
+
+@media (max-width: 412px) {
+    .boxOne{
+        margin-left: -30px;
+    }
+    
+    #container > .img{
+        margin: 4px 8px 0 -100px;
+
+    }
+}

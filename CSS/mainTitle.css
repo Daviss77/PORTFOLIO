@@ -90,3 +90,21 @@ footer{
 .boxOne.darkP  p{
     color: white;
 }
+
+@media (max-width: 412px) {
+  #container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 412px;
+    border: 1px solid black;
+  }
+  .boxOne > h1 {
+    margin-right: -60px;
+    font-size: 40px;
+    
+  }
+  .boxOne > h3{
+    margin: 0px;
+  }
+ 
+}

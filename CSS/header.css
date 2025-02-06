@@ -66,3 +66,27 @@
 .email.darkEmail{
     color: black;
 }
+
+@media (max-width: 412px) {
+    header{
+        display: flex;
+        justify-content: right;
+        width: 412px;
+
+    }
+    .cab{
+        display: none;
+    }
+
+    #screenMobile{
+        display: block;
+    }
+
+    #screenMobile > img{
+        width: 70px;
+        margin-right: 14px;
+        
+    }
+    
+
+}
