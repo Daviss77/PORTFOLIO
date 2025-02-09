@@ -88,3 +88,52 @@
     color: black;
     transition: 0.5s;
 }
+
+@media (max-width: 500px){
+    #containerThree{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 412px;
+    }
+    .boxThree{
+        width: 412px;
+        margin-top: 2px;
+    }
+    .boxThree > h1{
+        width: 412px;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+    .boxThree > h2{
+        margin-left: 20px;
+        font-size: 20px;
+        width: 400px;
+    }
+    .boxThree > img{
+        width: 245px;
+        height: 140px;
+        margin-left: 20px;
+    }
+    .buttonLink{
+        width: 246px;
+        height: 22px;
+        margin-left: 20px;
+    }
+
+    .boxThree > h4{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .boxThree > p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .boxThree > .titleFarm{
+        margin-top: 25px;
+    }
+    .boxThree > .titleEx{
+        margin-top: 40px;
+    }
+}

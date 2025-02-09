@@ -91,20 +91,29 @@ footer{
     color: white;
 }
 
-@media (max-width: 412px) {
-  #container{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 412px;
-    border: 1px solid black;
-  }
-  .boxOne > h1 {
-    margin-right: -60px;
-    font-size: 40px;
-    
-  }
-  .boxOne > h3{
-    margin: 0px;
-  }
- 
+@media (max-width: 600px) {
+    #container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 380px;
+        width: 412px;
+    }
+    #container > .title{
+        margin-bottom: 65px;
+    }
+
+    .boxOne{
+        margin: 4px;
+        width: 400px;
+    }
+
+    .boxOne > h1{
+        margin: 3px 65px;
+        font-size: 50px;
+    }
+    .boxOne > h3{
+        font-size: 13.7px;
+        margin: 2px 85px;
+    }
 }

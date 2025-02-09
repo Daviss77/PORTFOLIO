@@ -67,26 +67,22 @@
     color: black;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 600px) {
+    *{
+        /*outline: 1px solid black;*/
+    }
     header{
         display: flex;
         justify-content: right;
         width: 412px;
-
+        margin-bottom: 20px;
     }
     .cab{
         display: none;
     }
-
-    #screenMobile{
-        display: block;
+    /*Imagem do menu*/
+    #menuMobile > img{
+        width: 60px;
+        margin: 34px 20px 0px 0px;
     }
-
-    #screenMobile > img{
-        width: 70px;
-        margin-right: 14px;
-        
-    }
-    
-
 }
