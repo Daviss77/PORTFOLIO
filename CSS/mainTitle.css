@@ -13,12 +13,15 @@
     margin: 0px;
 }
 
-body{
-    height: 100%;
+html, body{
+    overflow-y:auto;
     background-attachment: fixed;
     background: linear-gradient(to bottom, #f0fdfa, #dbeafe , #bac6e2,   #93c5fd, #172554);
     /*darkMode*/
     /*background: linear-gradient(to bottom, #0a0a0a, #0a0a0a, #1e1b4b , #4c0519);*/
+    overflow-x: hidden; /* Impede rolagem horizontal */
+    overflow-y: auto; /* Garante rolagem vertical */
+    min-height: 100vh;
 }
 
 /*CLASSE DARKTHEME*/
@@ -43,6 +46,7 @@ footer{
     border: 1px solid black;
     margin-top: 10px;
     height: 35px;
+    position: relative;
 }
 
 #container{

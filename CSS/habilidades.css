@@ -40,3 +40,49 @@
 .api{
     width: 280px;
 }
+
+@media (max-width: 500px){
+    #containerFive{
+        width: 390px;
+        flex-direction: row;
+        margin-left: 8px;
+        height: 700px;
+    }
+    .boxFive{
+        margin: -10px 5px;
+        width: 110px;
+        height: 80px;
+    }
+    #containerFive > h2{
+        font-size: 22px;
+        margin: 10px 0px -26px 45px;
+    }
+    .boxFive > h3{
+        margin: 2px 0px 4px;
+    }
+    .RC{
+        height: 90px;
+    }
+    .RC > h3{
+        margin-left: 10px;
+    }
+    .boxFive > img{
+        width: 40px;
+    }
+    #top > a > img{
+        height: 70px;
+        width: 80px;
+    }
+     #containerFive > #top {
+        margin-top: 2px;
+        height: 80px;
+        width: 85px;
+    }
+    #top > p{
+        width: 300px;
+    }
+    footer{
+        height: 20px;
+        width: auto;
+    }
+}

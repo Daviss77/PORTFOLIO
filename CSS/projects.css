@@ -102,9 +102,10 @@
     }
     .boxThree > h1{
         width: 412px;
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 20px;
         margin-left: 2px;
+        padding-left: 12px;
     }
     .boxThree > h2{
         margin-left: 20px;
@@ -114,24 +115,28 @@
     .boxThree > img{
         width: 245px;
         height: 140px;
-        margin-left: 20px;
+        margin-left: 75px;
     }
     .buttonLink{
         width: 246px;
         height: 22px;
-        margin-left: 20px;
+        margin-left: 75px;
     }
 
     .boxThree > h4{
         margin-top: 40px;
-        font-size: 40px;
+        font-size: 35px;
+        margin-left: 75px ;
     }
     .boxThree > p{
-        font-size: 14px;
+        font-size: 13px;
         line-height: 25px;
+        margin-left: 30px;
+        width: 370px;
     }
     .boxThree > .titleFarm{
         margin-top: 25px;
+        margin-left: 75px;
     }
     .boxThree > .titleEx{
         margin-top: 40px;

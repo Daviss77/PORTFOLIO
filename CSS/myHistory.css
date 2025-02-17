@@ -45,12 +45,17 @@
     #containerTwo{
         display: flex;
         flex-direction: column-reverse;
+       
         width: 412px;
     }
     .boxTwo{
-        margin: 10px 20px;
+        justify-items: center;
+        margin: 10px;
+        margin-left: -10px;
     }
-    
+    .boxTwo > h1{
+        font-size: 35px;
+    }
     .boxTwo > p{
         display: none;
     }
@@ -58,6 +63,19 @@
         line-height: 24px;
         font-family: "Public Sans", arial;
         font-size: 16px;
+        margin-left: 30px;
+        width: 370px;
+    }
+    .historyMobile > button{
+        margin-top: 12px;
+        margin-left: 160px;
+        background-color:  #2e1065;
+        color: white;
+        padding: 4px;
+        border-radius: 6px;
+        border: 2px solid rgba(182, 115, 115, 0.995);
+        box-shadow: 2px 1px 4px black;
+        font-weight: bold;
     }
 
     .boxTwo > img{
