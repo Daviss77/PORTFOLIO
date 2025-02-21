@@ -67,6 +67,18 @@
     color: black;
 }
 
+/*DARK MOBILE*/
+    header > .darkLink{
+        display: none;
+        background-color: #818cf8;
+        border-left:2px solid #06fbff ;
+        border-bottom:2px solid #06fbff ;
+    }
+    header > .darkLink > a{
+        text-decoration: none;
+
+    }
+
 @media (max-width: 600px) {
     *{
         /*outline: 1px solid black;*/
@@ -84,5 +96,34 @@
     #menuMobile > img{
         width: 60px;
         margin: 34px 20px 0px 0px;
+    }
+    .LinksMobile{
+        font-family: "Fira sans", "arial";
+        display: none;
+        background-color: #0f172ad4;
+        height: 300px;
+        width:200px;
+        text-align: center;
+        border-radius: 0px 0px 0px 20px;
+    }
+    .LinksMobile > a{
+        color: white;
+        margin: 30px;
+    }
+
+    .closeLink{
+        background-color: red;
+        color: whitesmoke;
+        font-weight: bold;
+        padding: 6px;
+        border-radius: 10px;
+        width: 40px;
+        margin: 10px 50% 30px 0px;
+    }
+    .socialMidia > #iconsHeader > img{
+        width: 40px;
+        margin: 10px 16px;
+        border: 2px solid white;
+        border-radius: 50%;
     }
 }

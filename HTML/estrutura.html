@@ -31,8 +31,31 @@
             <a href="https://github.com/Daviss77" target="_blank"><img src="../IMG/github.png" alt="Logotipo github"></a>
             <a href="https://www.linkedin.com/in/davi-santana-286b5325b/" target="_blank"><img id="iconMode" src="../IMG/logo-do-linkedin.png" alt="Logotipo Linkedin"></a>
         </div>
-            <div id="menuMobile" onclick="menu()">
+            <div id="menuMobile">
                 <img src="../IMG/menu.png" alt="Icon de Menu"> 
+            </div>
+            <div class="LinksMobile darkLink">
+
+                <button class="closeLink">X</button>
+                <a href="#containerTwo">
+                    <p class="t1 myHistoryCab" data-ori="MINHA HISTÓRIA" data-new="MY HISTORY">MINHA HISTÓRIA</p>
+                </a>
+                <a href="#containerThree">
+                    <p class="t1 projectsCab" data-ori="PROJETOS" data-new="PROJECTS">PROJETOS</p>
+                </a>
+
+                <a href="#containerFour">
+                    <P class="t1 curriculoCab" data-ori="CURRICULO" data-new="CURRICULUM">CURRICULO</P>
+                </a>
+
+                <a href="#containerFive">
+                    <P class="t1 habilidadesCab" data-ori="HABILIDADES" data-new="SKILLS">HABILIDADES</P>
+                </a>
+
+                <div class="socialMidia">
+                    <a id="iconsHeader" href="https://github.com/Daviss77" target="_blank"><img src="../IMG/github.png" alt="Logotipo github"></a>
+                    <a id="iconsHeader" href="https://www.linkedin.com/in/davi-santana-286b5325b/" target="_blank"><img id="iconMode" src="../IMG/logo-do-linkedin.png" alt="Logotipo Linkedin"></a>
+                </div>
             </div>
     </header>
     <div id="container">
@@ -85,7 +108,14 @@
                         <p>
                             Em meados de 2023, comecei minha trajetória no mercado de trabalho após realizar diversos cursos, inicialmente na área de T.I. e, logo depois, em nutrição. Esse salto entre áreas pode parecer inesperado, mas durante a pandemia, eu estava me redescobrindo e explorando novas possibilidades...
                         </p>
-                        <button>LER MAIS</button>
+                        <button class="roadMore">LER MAIS</button>
+
+                        <div>
+                            <div class="ModalMoreRead" id="ModalMoreRead">
+                                <button class="close">X</button>
+                                <p>Com isso acabei caindo na nutrição, uma descoberta que eu não sabia que faria na minha vida, após, terminar o curso fiquei um ano fazendo estágios e experimentando o mercado de trabalho, mas por diversos motivos, acabei cansando da área. No final de 2023, decidi voltar para minha antiga paixão, TI. Nisso investi todo meu tempo nos cursos do professor Gustavo Guanabara e o mestre Akita. Contudo, fiz o investimento de ingressar na faculdade e consequentemente consegui um emprego na área de Field Service como jovem aprendiz, onde me desenvolvi bem até ao ponto de ser efetivado. Atualmente busco oportunidade na área de desenvolvedor e busco também sempre melhorar meus quesitos técnicos e os softkills.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -218,6 +248,7 @@
 
     <!--JS MOBILE-->
     <script src="../JS/MOBILE/moreHistory.js"></script>
-    
+    <script src="../JS/MOBILE/menu.js"></script>
+    <script src="../JS/MOBILE/dark.js"></script>
 </body>
 </html> 

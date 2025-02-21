@@ -24,6 +24,9 @@ function darkMode(){
     const iconMode = document.getElementById("iconMode");
     const habilidades = document.getElementById("containerFive");
 
+    /*MOBILE*/
+    let menuDark = document.querySelector(".LinksMobile");
+    /*MOBILE*/
         if(darkTheme){
             body.classList.toggle('corpo')
             t1.classList.toggle('darkH1')
@@ -50,8 +53,10 @@ function darkMode(){
             buttonLink.forEach(element => {
                 element.classList.toggle('darkButton');
             })
-
             curriculo.classList.toggle('darkBorder');
+            /*MOBILE*/
+            menuDark.classList.toggle('darkLink');
+            /*MOBILE*/
     }
     else{
         body.classList.remove('corpo')
@@ -80,5 +85,7 @@ function darkMode(){
         })
 
         curriculo.classList.remove('darkBorder');
+        
+        menuDark.classList.remove("darkLink");
     }
 }
