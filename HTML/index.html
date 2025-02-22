@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../CSS/IconsTitle.css">
 </head>
 <body>
-    <header> 
+    <header class="darkMenu2"> 
         <div class="cab">
             <p class="t1">E-MAIL:  <a href="mailto:davizsv142@gmail.com" class="email">daviss7724@gmail.com</a></p>
             <a href="#containerTwo">
@@ -34,7 +34,7 @@
             <div id="menuMobile">
                 <img src="../IMG/menu.png" alt="Icon de Menu"> 
             </div>
-            <div class="LinksMobile darkLink">
+            <div class="LinksMobile">
 
                 <button class="closeLink">X</button>
                 <a href="#containerTwo">
@@ -66,7 +66,7 @@
                     <div class="teste">
                         <div class="boxOne" >
                             <p class="tema">Tema</p>
-                                <img id="imagemTema" src="../IMG/TemaClaro.png" alt="Icon de sol que representa a cor de fundo clara"  onclick="darkMode()" >
+                                <img id="imagemTema" src="../IMG/TemaClaro.png" alt="Icon de sol que representa a cor de fundo clara"  onclick="darkMode()">
                         </div>
                         <div class="boxOne">
                             <p> <br></p>
@@ -105,15 +105,27 @@
                     </p>
 
                     <div class="historyMobile">
-                        <p>
+                        <p data-ori="Em meados de 2023, comecei minha trajetória no mercado de trabalho após realizar diversos cursos, inicialmente na área de T.I. e, logo depois, em nutrição. Esse salto entre áreas pode parecer inesperado, mas durante a pandemia, eu estava me redescobrindo e explorando novas possibilidades..." 
+                
+                        data-new="In mid-2023, I began my journey in the job market after completing several courses, initially in the IT field and soon after in nutrition. This leap between fields may seem unexpected, but during the pandemic, I was rediscovering myself and exploring new possibilities...">
                             Em meados de 2023, comecei minha trajetória no mercado de trabalho após realizar diversos cursos, inicialmente na área de T.I. e, logo depois, em nutrição. Esse salto entre áreas pode parecer inesperado, mas durante a pandemia, eu estava me redescobrindo e explorando novas possibilidades...
                         </p>
-                        <button class="roadMore">LER MAIS</button>
+                        <button class="roadMore" data-new="ROAD MORE"
+                        data-ori="LER MAIS"
+                        >LER MAIS</button>
 
                         <div>
                             <div class="ModalMoreRead" id="ModalMoreRead">
                                 <button class="close">X</button>
-                                <p>Com isso acabei caindo na nutrição, uma descoberta que eu não sabia que faria na minha vida, após, terminar o curso fiquei um ano fazendo estágios e experimentando o mercado de trabalho, mas por diversos motivos, acabei cansando da área. No final de 2023, decidi voltar para minha antiga paixão, TI. Nisso investi todo meu tempo nos cursos do professor Gustavo Guanabara e o mestre Akita. Contudo, fiz o investimento de ingressar na faculdade e consequentemente consegui um emprego na área de Field Service como jovem aprendiz, onde me desenvolvi bem até ao ponto de ser efetivado. Atualmente busco oportunidade na área de desenvolvedor e busco também sempre melhorar meus quesitos técnicos e os softkills.</p>
+                                <p data-ori="Com isso acabei caindo na nutrição, uma descoberta que eu não sabia que faria na minha vida, após, terminar o curso fiquei um ano fazendo estágios e experimentando o mercado de trabalho, mas por diversos motivos, acabei cansando da área. No final de 2023, decidi voltar para minha antiga paixão, TI. Nisso investi todo meu tempo nos cursos do professor Gustavo Guanabara e o mestre Akita. Contudo, fiz o investimento de ingressar na faculdade e consequentemente consegui um emprego na área de Field Service como jovem aprendiz, onde me desenvolvi bem até ao ponto de ser efetivado. Atualmente busco oportunidade na área de desenvolvedor e busco também sempre melhorar meus quesitos técnicos e os softkills."
+                                
+                                data-new="With that, I ended up diving into nutrition—a discovery I never expected to make in my life. After finishing the course, I spent a year doing internships and gaining experience in the job market. However, for various reasons, I eventually grew tired of the field.
+
+                                By the end of 2023, I decided to return to my old passion: IT. I dedicated all my time to courses from Professor Gustavo Guanabara and Master Akita. Additionally, I invested in enrolling in college, which eventually led me to secure a job in Field Service as a young apprentice. I developed well in this role to the point of being promoted.
+                                
+                                Currently, I am seeking opportunities in the development field while continuously improving both my technical skills and soft skills.">
+                                
+                                Com isso acabei caindo na nutrição, uma descoberta que eu não sabia que faria na minha vida, após, terminar o curso fiquei um ano fazendo estágios e experimentando o mercado de trabalho, mas por diversos motivos, acabei cansando da área. No final de 2023, decidi voltar para minha antiga paixão, TI. Nisso investi todo meu tempo nos cursos do professor Gustavo Guanabara e o mestre Akita. Contudo, fiz o investimento de ingressar na faculdade e consequentemente consegui um emprego na área de Field Service como jovem aprendiz, onde me desenvolvi bem até ao ponto de ser efetivado. Atualmente busco oportunidade na área de desenvolvedor e busco também sempre melhorar meus quesitos técnicos e os softkills.</p>
                             </div>
                         </div>
                     </div>
@@ -249,6 +261,7 @@
     <!--JS MOBILE-->
     <script src="../JS/MOBILE/moreHistory.js"></script>
     <script src="../JS/MOBILE/menu.js"></script>
-    <script src="../JS/MOBILE/dark.js"></script>
+    <script src="../JS/MOBILE/darkMobile.js"></script>
+
 </body>
 </html> 

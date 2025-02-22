@@ -68,16 +68,7 @@
 }
 
 /*DARK MOBILE*/
-    header > .darkLink{
-        display: none;
-        background-color: #818cf8;
-        border-left:2px solid #06fbff ;
-        border-bottom:2px solid #06fbff ;
-    }
-    header > .darkLink > a{
-        text-decoration: none;
-
-    }
+    
 
 @media (max-width: 600px) {
     *{
@@ -125,5 +116,16 @@
         margin: 10px 16px;
         border: 2px solid white;
         border-radius: 50%;
+    }
+
+    header > .darkLink{
+       
+        background-color: #a8abc6ed;
+        border-left:2px solid #06fbff ;
+        border-bottom:2px solid #06fbff ;
+    }
+    header > .darkLink > a{
+        text-decoration: none;
+
     }
 }

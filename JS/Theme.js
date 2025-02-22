@@ -25,7 +25,7 @@ function darkMode(){
     const habilidades = document.getElementById("containerFive");
 
     /*MOBILE*/
-    let menuDark = document.querySelector(".LinksMobile");
+ 
     /*MOBILE*/
         if(darkTheme){
             body.classList.toggle('corpo')
@@ -55,7 +55,7 @@ function darkMode(){
             })
             curriculo.classList.toggle('darkBorder');
             /*MOBILE*/
-            menuDark.classList.toggle('darkLink');
+           
             /*MOBILE*/
     }
     else{
@@ -85,7 +85,7 @@ function darkMode(){
         })
 
         curriculo.classList.remove('darkBorder');
-        
-        menuDark.classList.remove("darkLink");
+
+       
     }
 }
