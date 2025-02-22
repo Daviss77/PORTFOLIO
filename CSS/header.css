@@ -52,6 +52,12 @@
     margin-left: 4px;
 }
 
+.LinksMobile{
+    display: none;
+}
+#menuMobile > img{
+    display: none;
+}
 /*DARKTHEME*/
 .cab.darkCab{
     background-color: #0f94d6;
@@ -70,7 +76,7 @@
 /*DARK MOBILE*/
     
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     *{
         /*outline: 1px solid black;*/
     }
@@ -85,12 +91,12 @@
     }
     /*Imagem do menu*/
     #menuMobile > img{
+        display: block;
         width: 60px;
         margin: 34px 20px 0px 0px;
     }
     .LinksMobile{
         font-family: "Fira sans", "arial";
-        display: none;
         background-color: #0f172ad4;
         height: 300px;
         width:200px;

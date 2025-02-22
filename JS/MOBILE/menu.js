@@ -5,7 +5,7 @@ let closeMenu = document.querySelector(".closeLink");
 
 onMenu.addEventListener("click", function(){
     menu.style.display = "block";
-    iconMenu.style.display = "none";
+    iconMenu.style.display = "none"
 })
 
 closeMenu.addEventListener("click", function(){
