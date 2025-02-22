@@ -42,6 +42,14 @@
     
 }
 
+.historyMobile{
+    display: none;
+}
+
+.historyMobile > button{
+    display: none;
+}
+
 @media (max-width: 500px) {
     #containerTwo{
         display: flex;
@@ -60,6 +68,10 @@
     .boxTwo > p{
         display: none;
     }
+
+    .historyMobile{
+        display: block;
+    }
     .historyMobile > p{
         line-height: 24px;
         font-family: "Public Sans", arial;
@@ -68,6 +80,7 @@
         width: 370px;
     }
     .historyMobile > button{
+        display: block;
         margin-top: 12px;
         margin-left: 160px;
         background-color:  #2e1065;
