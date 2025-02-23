@@ -49,13 +49,13 @@
         height: 600px;
     }
     .boxFive{
-        margin: -10px 5px;
-        width: 80px;
+        margin: 3px 4px;
+        width: 90px;
         height: 65px;
     }
     #containerFive > h2{
         font-size: 18px;
-        margin: 10px 0px -26px 45px;
+        margin: 10px 0px 5px 45px;
     }
     .boxFive > h3{
         margin: 2px 0px 4px;
@@ -63,6 +63,7 @@
     }
     .RC{
         height: 90px;
+        width: 60px;
     }
     .RC > h3{
         margin-left: 10px;
@@ -71,18 +72,16 @@
         width: 40px;
     }
     #top > a > img{
-        height: 65px;
-        width: 70px;
+        height: 55px;
+        width: 60px;
     }
      #containerFive > #top {
-        margin-top: 2px;
-        height: 70px;
-        width: 75px;
+        height: 60px;
+        width: 65px;
     }
     #top > p{
         width: 100px;
-        
-        
+
     }
     footer{
         height: 20px;
