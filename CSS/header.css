@@ -81,6 +81,7 @@
         /*outline: 1px solid black;*/
     }
     header{
+        position: none;
         display: flex;
         justify-content: right;
         width: 412px;
@@ -93,7 +94,7 @@
     #menuMobile > img{
         display: block;
         width: 60px;
-        margin: 34px 20px 0px 0px;
+        margin: 34px 40px 0px 0px;
     }
     .LinksMobile{
         font-family: "Fira sans", "arial";

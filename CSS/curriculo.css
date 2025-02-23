@@ -30,6 +30,7 @@
     .boxFour{
         width: 100px;
         height: 80px;
+        margin-left:30px ;
     }
     .boxFour > h1{
         font-size: 16px;

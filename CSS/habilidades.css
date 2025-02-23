@@ -43,22 +43,23 @@
 
 @media (max-width: 500px){
     #containerFive{
-        width: 390px;
+        width: 280px;
         flex-direction: row;
-        margin-left: 8px;
-        height: 700px;
+        margin-left: 13%;
+        height: 600px;
     }
     .boxFive{
         margin: -10px 5px;
-        width: 110px;
-        height: 80px;
+        width: 80px;
+        height: 65px;
     }
     #containerFive > h2{
-        font-size: 22px;
+        font-size: 18px;
         margin: 10px 0px -26px 45px;
     }
     .boxFive > h3{
         margin: 2px 0px 4px;
+        font-size: 12px;
     }
     .RC{
         height: 90px;
@@ -70,16 +71,18 @@
         width: 40px;
     }
     #top > a > img{
-        height: 70px;
-        width: 80px;
+        height: 65px;
+        width: 70px;
     }
      #containerFive > #top {
         margin-top: 2px;
-        height: 80px;
-        width: 85px;
+        height: 70px;
+        width: 75px;
     }
     #top > p{
-        width: 300px;
+        width: 100px;
+        
+        
     }
     footer{
         height: 20px;

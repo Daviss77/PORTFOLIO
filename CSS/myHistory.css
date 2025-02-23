@@ -76,13 +76,13 @@
         line-height: 24px;
         font-family: "Public Sans", arial;
         font-size: 16px;
-        margin-left: 30px;
-        width: 370px;
+        text-align: center;
+        width: 320px;
     }
     .historyMobile > button{
         display: block;
         margin-top: 12px;
-        margin-left: 160px;
+        margin-left: 115px;
         background-color:  #2e1065;
         color: white;
         padding: 4px;
@@ -111,10 +111,10 @@
         font-family: "Public Sans", arial;
         color: whitesmoke;
         line-height: 26px;
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 30px;
         text-align: center;
-        width: 370px;
+        width: 310px;
         padding: 7px;
         position: fixed;
         top: 40%;
